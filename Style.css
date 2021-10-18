@@ -160,6 +160,19 @@ nav{
         transform: translateY(10px);
     }
 }
+@media screen and (max-width: 920px){
+    .container__vector img{
+      width:  300px;
+    }
+    
+}
+@media screen and (max-width: 760px){
+    .container__vector img{
+      transform: scale(0);
+      animation: none;
+    }
+    
+}
 .icon__menu{
     width: 50px;
     height: 100%;
