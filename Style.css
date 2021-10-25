@@ -119,6 +119,8 @@ nav{
 }
 .cover input[type="button"]{
     padding: 10px 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
     margin-top: 40px;
     font-size: 18px;
     font-weight: 500;
@@ -126,7 +128,7 @@ nav{
     color: white;
     background: #feba0b;
     border-radius: 20px;
-    box-shadow: 1px 1px 30px -5px #20202049;
+    box-shadow: 1px 1px 30px -5px #0e0d0d49;
     cursor: pointer;
     transition:box-shadow 500ms ;
 
