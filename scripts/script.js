@@ -23,11 +23,11 @@ if (window.innerWidth < 760){
 
 //funcion para hacer renponsive el menu
 window.addEventListener("resize", function(){
-    if(window.innerWidth < 760){
+    if(window.innerWidth > 760){
         body.classList.remove("body_move");
         side_menu.classList.remove("menu_side_move");
     }
-    if(window.innerWidth > 760){
+    if(window.innerWidth < 760){
         body.classList.add("body_move");
         side_menu.classList.add("menu_side_move");
     }

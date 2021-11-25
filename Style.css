@@ -285,15 +285,11 @@ a.selected{
 
 @media screen and(max-width: 760px){
     .body_move{
-        margin-left: 0px;
+        margin-left: 0;
     }
     .menu_side_move{
         width: 80px;
         left: -80px;
-    }
-
-    .icon__menu{
-        transform: translateX(10px);
     }
 }
 
@@ -485,4 +481,9 @@ input[id="3"]:checked ~ .pagination .paginatio-item[for="3"]{
         transform: translate3d(calc(-100% * 2),0,0);
     }
 }
+
+
+
+
+/*Estilos para las cards*/
 
